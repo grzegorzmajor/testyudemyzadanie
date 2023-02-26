@@ -1,0 +1,3 @@
+Rzeczy warte przetestowania to m.in. konstruktor Coordinates oraz metoda copy. W klasie Cargo nie ma żadnej zaawansowanej
+logiki do sprawdzenia. W tym przypadku nie ma też potrzeby, aby testować settery, gettery oraz metody equals i hashCode.
+Natomiast w klasie Unit warto przetestować wszystkie publiczne metody poza konstruktorem.
