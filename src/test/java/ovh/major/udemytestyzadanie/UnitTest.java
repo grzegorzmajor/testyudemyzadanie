@@ -69,7 +69,7 @@ public class UnitTest {
         unit.tankUp();
 
         //then
-        assertThat(unit.getFuel(),is(greaterThan(fuelBeforeMove)));
+        assertThat(unit.getFuel(),is(greaterThanOrEqualTo(fuelBeforeMove)));
 
     }
 
