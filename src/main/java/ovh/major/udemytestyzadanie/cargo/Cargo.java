@@ -1,4 +1,4 @@
-package ovh.major.udemytestyzadanie;
+package ovh.major.udemytestyzadanie.cargo;
 
 import java.util.Objects;
 
@@ -25,8 +25,11 @@ public class Cargo {
         return Objects.hash(name, weight);
     }
 
+    String getName() {
+        return this.name;
+    }
 
-    int getWeight() {
+    public int getWeight() {
         return weight;
     }
 }

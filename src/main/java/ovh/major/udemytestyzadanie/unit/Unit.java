@@ -1,4 +1,7 @@
-package ovh.major.udemytestyzadanie;
+package ovh.major.udemytestyzadanie.unit;
+
+import ovh.major.udemytestyzadanie.Coordinates;
+import ovh.major.udemytestyzadanie.cargo.Cargo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -85,5 +88,12 @@ public class Unit {
 
     int getLoad() {
         return this.currentCargoWeight;
+    }
+    Coordinates getCoordinates() {
+        return this.coordinates;
+    }
+
+    List<Cargo> getCargo() {
+        return this.cargo;
     }
 }
