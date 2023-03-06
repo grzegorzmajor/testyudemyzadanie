@@ -3,7 +3,6 @@ package ovh.major.udemytestyzadanie.unit;
 import org.junit.jupiter.api.Test;
 import ovh.major.udemytestyzadanie.Coordinates;
 import ovh.major.udemytestyzadanie.cargo.Cargo;
-import ovh.major.udemytestyzadanie.unit.Unit;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
